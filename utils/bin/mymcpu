@@ -103,33 +103,17 @@ function code2gpu(){
    case "$1" in
       "tahiti")  gpuname="gfx600"
       ;;
-      "gfx600")  gpuname="gfx600"
-      ;;
       "oland")  gpuname="gfx601"
-      ;;
-      "gfx601")  gpuname="gfx601"
-      ;;
-      "gfx700")  gpuname="gfx700"
       ;;
       "kaveri")  gpuname="gfx700"
       ;;
-      "gfx701")  gpuname="gfx701"
-      ;;
       "hawaii")  gpuname="gfx701"
-      ;;
-      "gfx703")  gpuname="gfx703"
       ;;
       "kabini")  gpuname="gfx703"
       ;;
-      "gfx801")  gpuname="gfx801"
-      ;;
       "carrizo") gpuname="gfx801"
       ;;
-      "gfx802")  gpuname="gfx802"
-      ;;
       "tonga")   gpuname="gfx802"
-      ;;
-      "gfx803")  gpuname="gfx803"
       ;;
       "fiji")    gpuname="gfx803"
       ;;
@@ -147,25 +131,13 @@ function code2gpu(){
       ;;
       "navi10")   gpuname="gfx1010"
       ;;
-      "gfx1010")   gpuname="gfx1010"
-      ;;
       "navi12")   gpuname="gfx1011"
-      ;;
-      "gfx1011")   gpuname="gfx1011"
       ;;
       "navi14")   gpuname="gfx1012"
       ;;
-      "gfx1012")   gpuname="gfx1012"
-      ;;
       "navi21")   gpuname="gfx1030"
       ;;
-      "gfx1030")   gpuname="gfx1030"
-      ;;
       "navi22")   gpuname="gfx1031"
-      ;;
-      "gfx1031")   gpuname="gfx1031"
-      ;;     
-      "sm_30")   gpuname="sm_30"
       ;;
       "k4000")   gpuname="sm_30"
       ;;
